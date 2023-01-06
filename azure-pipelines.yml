@@ -41,3 +41,4 @@ stages:
        deploy:
          steps:
          - script: echo my first deployment
+         - script: mkdir ~/testDir
