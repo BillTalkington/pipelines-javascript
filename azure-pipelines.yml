@@ -33,7 +33,7 @@ stages:
   - deployment: VMDeploy
     displayName: Web deploy
     environment:
-      name: deploy-test-env
+      name: testDeployEnvironment
       resourceType: VirtualMachine
       tags: web1
     strategy:
